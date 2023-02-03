@@ -1,0 +1,28 @@
+
+.caba .carousel{
+    top: 3px;
+    position: relative;
+}
+
+.caba .carousel .slide img {
+    height: auto;
+}
+
+.caba .thumbs{
+    display: none !important;
+}
+
+.caba .slide{
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .caba .slide{
+        height: 300px;
+    }
+
+    .caba .carousel .slide img {
+        height: 300px;
+    }
+}

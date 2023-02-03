@@ -1,0 +1,138 @@
+.footer-container{
+    background-color: #0abd28;
+    background-image: url("footer.png");
+    background-size: cover;
+    width: 100%;
+    padding: 2% 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-container div ul,
+.footer-container div ul li{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-transform:capitalize;
+    text-decoration: none;
+
+}
+
+.itaeli{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: white;
+}
+
+.fiscal{
+    width: 60px;
+}
+
+.itae{
+    width: 220px;
+}
+
+.footer-container h3{
+    color: white;
+    font-weight: 500;
+
+}
+
+.space-footer{
+    margin-left: 93px;
+    margin-top: 60px;
+}
+
+.li{
+    text-transform: capitalize;
+    margin:10px 10px 6px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background: none !important;
+
+}
+@media screen and (max-width: 1327px) {
+    
+    .space-footer{
+        margin-left: 2%;
+    }
+
+    .he{
+        width: 100%;
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1290px) {   
+    .space-footer{
+        margin-left: auto;
+        margin-top: 60px;
+    }
+
+    .footer-container {
+        margin-top: 383px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+.footer-container{
+    margin-top: 382px;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+
+}
+
+.space-footer ul .active{
+    background: none !important;
+}
+
+.footer-container div ul,
+.footer-container div ul li{
+    place-items: center;
+
+}
+
+.itaeli{
+    align-items: center;
+}
+
+.footer-container h3{
+    text-align: center;
+    margin-top:20px;
+}
+
+.space-footer{
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.li{
+    text-transform: capitalize;
+    margin:10px 10px 6px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 500px) {   
+    .space-footer{
+        margin-top: 60px;
+    }
+
+    .footer-container {
+        margin-top: 398px;
+    }
+}

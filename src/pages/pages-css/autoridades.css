@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.bacaut{
+  height: 281px !important;
+}
+
+.ul-wrapped{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ul-wrapped li{
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    margin: 15px 0px;
+}
+
+.w{
+  /* width: 232px; */
+  width: 320px;
+}
+
+.ul-wrapped li>div img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.ul-wrapped li>div h4{
+  font-weight: 500;
+  font-size: 16px;
+  color: #666666;
+}
+
+.aud-sector{
+  background-color: #F4F4F4;
+  position: relative;
+  padding: 50px 0px 30px 50px;
+  font-family: 'Montserrat';
+}
+
+.aud-sector>div>h2{
+  margin-bottom: 20px;
+}
+
+.taut{
+  color: #09b926;
+  font-size: 27px;
+  font-family: 'Montserrat';
+  font-weight: 600 !important;
+}
+
+.naut{
+  color: #525151;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 600 !important;
+}

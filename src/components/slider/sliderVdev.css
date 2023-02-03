@@ -1,0 +1,28 @@
+
+.vdev .carousel{
+    top: 3px;
+    position: relative;
+}
+
+.vdev .carousel .slide img {
+    height: auto;
+}
+
+.vdev .thumbs{
+    display: none !important;
+}
+
+.vdev .slide{
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .vdev .slide{
+        height: 300px;
+    }
+
+    .vdev .carousel .slide img {
+        height: 300px;
+    }
+}

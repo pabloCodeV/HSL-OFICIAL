@@ -1,0 +1,27 @@
+.portada-noticia .carousel{
+  top: 3px;
+  position: relative;
+}
+
+.portada-noticia .carousel .slide img {
+  height: auto;
+}
+
+.portada-noticia .thumbs{
+  display: none !important;
+}
+
+.portada-noticia .slide{
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .portada-noticia .slide{
+      height: 300px;
+  }
+
+  .portada-noticia .carousel .slide img {
+      height: 300px;
+  }
+}

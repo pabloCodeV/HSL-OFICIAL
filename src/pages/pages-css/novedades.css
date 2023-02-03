@@ -1,0 +1,79 @@
+.fech-nov{
+  font-family: 'Montserrat';
+    font-weight: 500;
+    position: relative;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #444343;
+    margin-bottom: 9px;
+}
+.nov>a>div>div>h2 {
+  height: auto;
+  padding: 10px 10px 0px 10px;
+  font-size: 14px;
+  color: #09b926;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+}
+.logo-novedades {
+  display: flex;
+  flex-direction: row;
+  background-color: #757575;
+  margin-left: 70px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  height: 89px;
+  padding-left: 20px;
+  align-items: center;
+  width: 88.7%;
+}
+.logo-novedades > h2 {
+  color: white;
+  font-weight: 300;
+  FONT-FAMILY: 'Montserrat';
+  letter-spacing: 1px;
+}
+.con-not{
+  justify-content: center;
+  width: 77%;
+  margin: auto;
+  margin-top: 60px;
+}
+.nov{
+  height: auto;
+  width: 90%;
+  border-radius: 3px;
+  border: 1px solid #dddd;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.nov img{
+  width: 223px;
+  object-fit: contain;
+  border-radius: 3px 3px 0px 0px;
+  object-position: top;
+}
+.nov h2{
+  height: auto;
+  padding: 10px 10px 0px 10px;
+  font-size: 14px;
+  color: #09b926;
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+}
+.p-text-nov{
+  font-size: 13px;
+  padding: 0px 10px 0px 10px;
+  color: grey;
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .nov {
+    width: 100%;
+    margin-left: 0; 
+}
+}

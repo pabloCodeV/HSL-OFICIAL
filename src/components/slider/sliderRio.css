@@ -1,0 +1,29 @@
+
+.rio .carousel{
+    top: 3px;
+    position: relative;
+}
+
+.rio .carousel .slide img {
+    height: auto;
+}
+
+.rio .thumbs{
+    display: none !important;
+}
+
+.rio .slide{
+    height: auto;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .rio .slide{
+        height: 300px;
+    }
+
+    .rio .carousel .slide img {
+        height: 300px;
+    }
+}

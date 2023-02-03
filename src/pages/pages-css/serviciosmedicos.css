@@ -1,0 +1,41 @@
+.search-serv{
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.search-serv input{
+  width: 24%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #a6a5a5dd;
+}
+
+.search-serv input:focus,
+.search-serv input:focus-visible{
+  outline: none;
+  border: 1px solid #09b926;
+}
+
+.icon-search-serv{
+  position: relative;
+  right: 27px;
+  top: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+  .search-serv input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #a6a5a5dd;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search-serv input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #a6a5a5dd;
+  }
+}

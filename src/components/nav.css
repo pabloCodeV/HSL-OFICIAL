@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* .intranet:hover{
+    background-color: aqua;
+} */
+
+.btn-intervencionismo{
+    background-color: #7586cb !important;
+}
+
+.btn-intervencionismo a{
+    padding: 10px 17px !important;
+}
+
+.btn-turno-header{
+    background-color: #09b926;
+    float: right;
+    width: 310px;
+    text-align: center;
+    height: 54px;
+    border: 3px solid white;
+    bottom: 230px;
+    border-radius: 7px;
+    margin-top: 14px;
+}
+
+.btn-turno-header a{
+    display: block !important;
+    background: none !important;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 23px;
+    position: relative;
+    padding: 10px 55px;
+    top: 0;
+}
+
+.nav-area {
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.menus {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu-items {
+  position: relative;
+  font-size: 17px;
+  margin-bottom: 1px;
+}
+
+.menu-items:hover{
+    border-bottom: 1px solid rgb(30, 185, 9);
+    margin-bottom: 0px;
+}
+
+.menu-items a {
+  display: block;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu-items button {
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bar{
+    border-right: 1px solid #9c9b9b;
+}
+
+.menu-items a,
+.menu-items button {
+  text-align: left;
+  padding: 1rem 1rem;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+  background-color: #f2f2f2;
+}
+
+.menu-items:nth-child(10) a,
+.menu-items:nth-child(10) button{
+  color: teal;
+}
+
+.menu-items:nth-child(10) a:hover,
+.menu-items:nth-child(10) button:hover{
+  background-color: #baedff;
+  color: teal;
+}
+
+    .dropdown {
+        position: absolute;
+        right: 0;
+        left: auto;
+        box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+        0 4px 6px -2px rgba(71, 63, 79, 0.16);
+        font-size: 0.875rem;
+        z-index: 9999;
+        min-width: 10rem;
+        padding: 0.5rem 0;
+        list-style: none;
+        background-color: #fff;
+        border-radius:0.5rem;
+        display: none;
+    }
+
+    .dropdown.show {
+        display: block;
+    }
+
+    .dropdown.dropdown-submenu {
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    
+    .burguer{
+       display: none; 
+    }
+    .hidde{
+        display: none;
+    }
+/* MediaQuery */
+
+@media screen and (max-width: 1105px) {
+
+    .burguer{
+        display: block;
+    }
+    .menusn{
+        background: green;
+        width: 100%;
+        height: 60px;
+    }
+    .menus{
+        position: absolute;
+        top: -700px;
+        left: -2000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .active{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        top: 172px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: black;
+        background: rgba(245, 242, 242, 100) !important;
+        z-index: 90;
+        height: 100%;
+    }
+
+    .inactive{
+        top: -700px;
+        left: -2000px;
+    }
+
+    .dropdown{
+        position: relative;
+        right: auto;
+        left: 0;
+    }
+
+    .menus{
+        justify-content: start;
+    }
+
+    .menu-items a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .menu-items button{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .dropdown.dropdown-submenu {
+        position: absolute;
+        left: 0;
+        top: 59px;
+        width: 100%;
+        background: #f9f9f9;
+        padding: 1rem 2rem;
+    }
+    
+    .nav-area {
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: 110px;
+      }
+      
+      .btn-turno-header {
+          float: right;
+          width: 100%;
+          text-align: center;
+          height: 54px;
+          border: 3px solid white;
+          bottom: 0;
+          border-radius: 7px;
+          margin-top: 0;
+      }
+      
+      .btn-intervencionismo{
+        display: none;
+        }
+
+
+    
+}
